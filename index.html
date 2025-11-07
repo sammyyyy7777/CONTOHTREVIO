@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rental Motor Malang — Trevio Rental Motor</title>
+  <meta name="description" content="Trevio Rental Motor Malang — sewa motor, antar jemput, harga transparan. Kontak via email/WA untuk info lebih lanjut." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --accent: #007bff;
+      --accent2: #66b2ff;
+      --muted: #6c757d;
+      --shadow: 0 8px 24px rgba(0,0,0,0.08);
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { font-family: 'Poppins', sans-serif; background:var(--bg); color:#212529; line-height:1.5; }
+    a { text-decoration:none; color:inherit; }
+    .wrap { max-width: 1000px; margin: auto; padding: 20px; }
+    header { display: flex; align-items: center; gap: 16px; padding: 20px 0; }
+    .logo { width: 64px; height: 64px; border-radius: 50%; background: var(--accent); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:28px; box-shadow: var(--shadow); }
+    .brand h1 { margin:0; font-size:24px; }
+    .brand p { margin:4px 0 0; color:var(--muted); font-size:14px; }
+    nav { margin-top:12px; text-align:center; }
+    nav a { margin: 0 12px; font-weight:500; color:var(--accent); transition: color .3s; }
+    nav a:hover { color:var(--accent2); }
+    .hero { margin-top:30px; text-align:center; }
+    .hero img { width:100%; border-radius:var(--radius); box-shadow:var(--shadow); }
+    .hero h2 { margin:20px 0 10px; font-size:28px; color:var(--accent); }
+    .hero p { max-width: 600px; margin: auto; color:var(--muted); }
+    section { margin-top:40px; }
+    section h2 { font-size:22px; color:var(--accent); margin-bottom:12px; text-align:center; }
+    .grid3 { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:24px; }
+    .card { background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:20px; text-align:center; }
+    .card img { width:100%; height:160px; object-fit:cover; border-radius:var(--radius); }
+    .card h4 { margin:16px 0 8px; font-size:18px; color:#212529; }
+    .card p { color:var(--muted); font-size:14px; }
+    .btn { display:inline-block; padding:12px 20px; border-radius:var(--radius); font-weight:700; transition: background .3s, color .3s; }
+    .btn-primary { background:var(--accent); color:#fff; }
+    .btn-outline { border:2px solid var(--accent); color:var(--accent); background:transparent; }
+    .contact { text-align:center; }
+    .contact p { margin:12px 0; color:var(--muted); }
+    footer { margin-top:60px; padding:30px 0; text-align:center; background:var(--accent); color:#fff; border-radius:var(--radius); }
+    footer small { color:rgba(255,255,255,0.8); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- HEADER -->
+    <header>
+      <div class="logo">RM</div>
+      <div class="brand">
+        <h1>Trevio Rental Motor</h1>
+        <p>Malang • Antar Jemput • Harga Terjangkau</p>
+      </div>
+    </header>
+    <nav>
+      <a href="#services">Layanan</a>
+      <a href="#fleet">Kelas Motor</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1581579180512-4f2b2f4e3f2e?auto=format&fit=crop&w=1200&q=80" alt="Rental Motor Malang">
+      <h2>Sewa Motor di Malang dengan Mudah & Cepat</h2>
+      <p>Ambil motor hari ini, antar jemput ke lokasi Anda. Mulai dari harga terjangkau, bebas risiko, untuk liburan atau kebutuhan sehari-hari.</p>
+      <a class="btn btn-primary" href="mailto:info@treviorentalmotor.com">Hubungi Sekarang</a>
+    </div>
+
+    <!-- LAYANAN -->
+    <section id="services">
+      <h2>Layanan Kami</h2>
+      <div class="grid3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1518145782175-7d3a43665dce?auto=format&fit=crop&w=800&q=80" alt="Sewa Harian">
+          <h4>Sewa Harian</h4>
+          <p>Gunakan motor untuk satu hari penuh. Ambil pagi, kembalikan malam.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1558980664-507b3c5f55b3?auto=format&fit=crop&w=800&q=80" alt="Antar Jemput">
+          <h4>Antar Jemput</h4>
+          <p>Kami antar motor ke lokasi Anda (hotel, bandara, stasiun) tanpa biaya tambahan.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1504215680853-26a9f965d6f0?auto=format&fit=crop&w=800&q=80" alt="Sewa Bulanan">
+          <h4>Sewa Bulanan</h4>
+          <p>Kebutuhan kerja atau tinggal lama? Paket sewa bulanan dengan harga spesial.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLEET / KELAS MOTOR -->
+    <section id="fleet">
+      <h2>Kelas Motor</h2>
+      <div class="grid3">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=800&q=80" alt="Motor Bebek">
+          <h4>Motor Bebek</h4>
+          <p>Murah & irit – cocok untuk keliling kota Malang.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1571607383782-3a1d3c953ac7?auto=format&fit=crop&w=800&q=80" alt="Motor Matic">
+          <h4>Motor Matic</h4>
+          <p>Praktis & nyaman – cocok untuk scanning area Malang bebas ribet.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1498579809087-24e3dce569a9?auto=format&fit=crop&w=800&q=80" alt="Motor Sport">
+          <h4>Motor Sport</h4>
+          <p>Gaya dan performa – untuk yang pengen sensasi riding ekstra.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <p>📍 <a href="https://maps.app.goo.gl/cq8ZFCkR8KJ6uBDTA" target="_blank">Trevio Rental Motor, Jl. Mangun Sarkoro, Jodipan, Malang</a></p>
+      <p>📞 WA/Telepon: <a href="tel:+6281234567890">+62 812-3456-7890</a></p>
+      <p>📧 Email: <a href="mailto:info@treviorentalmotor.com">info@treviorentalmotor.com</a></p>
+    </section>
+
+    <footer>
+      <strong>Trevio Rental Motor</strong><br>
+      <small>© 2025 Trevio Rental Motor – Sewa Motor Malang. Semua hak dilindungi.</small>
+    </footer>
+  </div>
+</body>
+</html>
